@@ -1,3 +1,5 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 
-H/W №2
+H/W №1
+
+> > > > > > > 5cdfe8d30a3e868c84da96ba1d38c6dabc4bfc07
