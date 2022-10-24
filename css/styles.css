@@ -1,3 +1,78 @@
-body{
-    font-family: Roboto, sans-serif;
+/* колір основного тексту #21212 */
+/* другорядний колір тексту* #757575 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* другорядний фон #2F303A */
+
+:root{
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #fff;
+    color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo{
+    color: #000000;
+    text-decoration: none;
+}
+.color2{
+    color: var(--accent-color);
+}
+ul{
+    list-style: none;
+}
+
+.site-nav a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus{
+    color: var(--accent-color);
+}
+.site-nav .current{
+    color: var(--accent-color);
+}
+.connection-nav a{
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.connection-nav a:hover,
+.connection-nav a:focus{
+    color: #2196F3;
+}
+
+/* Hero */
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #FFFFFF;
+    
+}
+/* Section */
+.section-title{
+    color: var(--primary-text-color);
+}
+footer{
+    background-color: #2F303A;
+}
+/* button */
+.button{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+/* footer */
+.footer-text{
+    color: #FFFFFF;
+}
+.footer-connection a{
+     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none
 }
