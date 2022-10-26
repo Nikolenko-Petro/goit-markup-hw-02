@@ -11,13 +11,16 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #FFFFFF;
     color: var(--title-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
 ul {
     list-style: none;
+}
+footer {
+    background-color: #2F303A;
 }
 /* Logo */
 .logo{
@@ -58,7 +61,7 @@ ul {
 }
 .connection-nav a:hover,
 .connection-nav a:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Hero */
@@ -117,13 +120,24 @@ ul {
         line-height: 1.88;
         letter-spacing: 0.06em;
 }
+.project-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;}
 
 /* footer */
 
-footer {
-    background-color: #2F303A;
-}
-.footer-text {
+
+
+.footer-text{
     color: #FFFFFF;
 }
 .footer-connection a{
@@ -132,6 +146,10 @@ footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+.footer-connection a:hover,
+.footer-connection a:focus {
+    color: var(--accent-color);
 }
 /* portfolio */
 .filtres{
@@ -147,14 +165,15 @@ color: #FFFFFF;
 background-color: var(--accent-color);
 cursor: pointer;
 }
-.project-title{
+.project-title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;  
+    letter-spacing: 0.06em;
 }
-.project-text{
+
+.project-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
